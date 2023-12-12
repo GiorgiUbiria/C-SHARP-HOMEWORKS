@@ -1,4 +1,6 @@
-﻿string realName = "Giorgi Ubiria";
+﻿Console.BackgroundColor = ConsoleColor.Cyan;
+
+string realName = "Giorgi Ubiria";
 
 Console.WriteLine($"Hello {realName}! You are {realName} right?! RIGHT?! Let's check");
 
