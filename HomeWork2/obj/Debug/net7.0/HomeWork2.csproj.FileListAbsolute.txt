@@ -1,0 +1,15 @@
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork2/bin/Debug/net7.0/HomeWork2
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork2/bin/Debug/net7.0/HomeWork2.deps.json
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork2/bin/Debug/net7.0/HomeWork2.runtimeconfig.json
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork2/bin/Debug/net7.0/HomeWork2.dll
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork2/bin/Debug/net7.0/HomeWork2.pdb
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork2/obj/Debug/net7.0/HomeWork2.csproj.AssemblyReference.cache
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork2/obj/Debug/net7.0/HomeWork2.GeneratedMSBuildEditorConfig.editorconfig
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork2/obj/Debug/net7.0/HomeWork2.AssemblyInfoInputs.cache
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork2/obj/Debug/net7.0/HomeWork2.AssemblyInfo.cs
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork2/obj/Debug/net7.0/HomeWork2.csproj.CoreCompileInputs.cache
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork2/obj/Debug/net7.0/HomeWork2.dll
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork2/obj/Debug/net7.0/refint/HomeWork2.dll
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork2/obj/Debug/net7.0/HomeWork2.pdb
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork2/obj/Debug/net7.0/HomeWork2.genruntimeconfig.cache
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork2/obj/Debug/net7.0/ref/HomeWork2.dll
