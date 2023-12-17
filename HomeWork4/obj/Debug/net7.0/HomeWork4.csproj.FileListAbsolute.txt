@@ -1,0 +1,15 @@
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork4/bin/Debug/net7.0/HomeWork4
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork4/bin/Debug/net7.0/HomeWork4.deps.json
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork4/bin/Debug/net7.0/HomeWork4.runtimeconfig.json
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork4/bin/Debug/net7.0/HomeWork4.dll
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork4/bin/Debug/net7.0/HomeWork4.pdb
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork4/obj/Debug/net7.0/HomeWork4.csproj.AssemblyReference.cache
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork4/obj/Debug/net7.0/HomeWork4.GeneratedMSBuildEditorConfig.editorconfig
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork4/obj/Debug/net7.0/HomeWork4.AssemblyInfoInputs.cache
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork4/obj/Debug/net7.0/HomeWork4.AssemblyInfo.cs
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork4/obj/Debug/net7.0/HomeWork4.csproj.CoreCompileInputs.cache
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork4/obj/Debug/net7.0/HomeWork4.dll
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork4/obj/Debug/net7.0/refint/HomeWork4.dll
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork4/obj/Debug/net7.0/HomeWork4.pdb
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork4/obj/Debug/net7.0/HomeWork4.genruntimeconfig.cache
+/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork4/obj/Debug/net7.0/ref/HomeWork4.dll
