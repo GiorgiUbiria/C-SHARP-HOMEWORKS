@@ -18,3 +18,19 @@
         Console.WriteLine($"Area of the inner square: {innerSquareArea}");
         Console.WriteLine($"Difference in areas: {areaDifference}");
 #endregion
+
+#region Problem2
+Console.Write("Enter a string: ");
+string input = Console.ReadLine();
+
+bool isWinningString = input.All(c => c == input[0]);
+
+if (isWinningString)
+{
+        Console.WriteLine("The string is a jackpot.");
+}
+else
+{
+        Console.WriteLine("The string is not a jackpot.");
+}
+#endregion
