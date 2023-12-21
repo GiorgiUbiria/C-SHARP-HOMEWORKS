@@ -82,3 +82,30 @@ for (int i = 0; i < inputStrings.Length; i++)
 
 Console.WriteLine($"The total amount of money the person should get is ${totalAmount}.");
 #endregion
+
+#region Problem5
+Console.Write("Enter a sequence of numbers (separated by spaces): ");
+string[] inputString = Console.ReadLine().Split(' ');
+
+int[] numbers = Array.ConvertAll(inputString, int.Parse);
+
+int maxLength = 0;
+int length = 1;
+
+for (int i = 1; i < numbers.Length; i++)
+{
+        if (numbers[i] > numbers[i - 1])
+        {
+                length++;
+        }
+        else
+        {
+                maxLength = Math.Max(maxLength, length);
+                length = 1;
+        }
+}
+
+maxLength = Math.Max(maxLength, length);
+
+Console.WriteLine($"The length of the longest sequence of ascending elements is {maxLength}.");
+#endregion
