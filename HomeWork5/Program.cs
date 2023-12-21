@@ -49,3 +49,36 @@ int totalPoints = (wins * 3) + (draws * 1) + (losses * 0);
 
 Console.WriteLine($"The total number of points is {totalPoints}.");
 #endregion
+
+#region Problem4
+Console.Write("Enter the number of hours worked each day (separated by spaces): ");
+string[] inputStrings = Console.ReadLine().Split(' ');
+
+int totalAmount = 0;
+
+for (int i = 0; i < inputStrings.Length; i++)
+{
+        int hours = int.Parse(inputStrings[i]);
+        int amount = 0;
+
+        if (i < 5)
+        {
+                if (hours > 8)
+                {
+                        amount = (8 * 10) + ((hours - 8) * 15);
+                }
+                else
+                {
+                        amount = hours * 10;
+                }
+        }
+        else
+        {
+                amount = hours * 20;
+        }
+
+        totalAmount += amount;
+}
+
+Console.WriteLine($"The total amount of money the person should get is ${totalAmount}.");
+#endregion
