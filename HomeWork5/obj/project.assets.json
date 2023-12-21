@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork2/HomeWork2.csproj",
-      "projectName": "HomeWork2",
-      "projectPath": "/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork2/HomeWork2.csproj",
+      "projectUniqueName": "/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork5/HomeWork5.csproj",
+      "projectName": "HomeWork5",
+      "projectPath": "/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork5/HomeWork5.csproj",
       "packagesPath": "/home/faziskado/.nuget/packages/",
-      "outputPath": "/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork2/obj/",
+      "outputPath": "/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork5/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/faziskado/.nuget/NuGet/NuGet.Config"
