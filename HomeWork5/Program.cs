@@ -34,3 +34,18 @@ else
         Console.WriteLine("The string is not a jackpot.");
 }
 #endregion
+
+#region Problem3
+Console.Write("Enter the number of wins: ");
+int wins = int.Parse(Console.ReadLine());
+
+Console.Write("Enter the number of draws: ");
+int draws = int.Parse(Console.ReadLine());
+
+Console.Write("Enter the number of losses: ");
+int losses = int.Parse(Console.ReadLine());
+
+int totalPoints = (wins * 3) + (draws * 1) + (losses * 0);
+
+Console.WriteLine($"The total number of points is {totalPoints}.");
+#endregion
