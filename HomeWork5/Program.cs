@@ -109,3 +109,34 @@ maxLength = Math.Max(maxLength, length);
 
 Console.WriteLine($"The length of the longest sequence of ascending elements is {maxLength}.");
 #endregion
+        
+#region Problem6.1
+string[] array = { "apple", "banana", "cherry", "date", "elderberry" };
+
+Console.Write("Enter the length for the array elements: ");
+int n = int.Parse(Console.ReadLine());
+
+var resultArray = array.Where(s => s.Length == n);
+
+Console.WriteLine($"Elements of length {n} in the array:");
+foreach (var element in resultArray)
+{
+        Console.WriteLine(element);
+}
+#endregion
+
+#region Problem6.2
+Console.Write("Enter a string: ");
+string inputStr = Console.ReadLine();
+
+Console.Write("Enter the length for the string elements: ");
+n = int.Parse(Console.ReadLine());
+
+var resultString = inputStr.Split(' ').Where(s => s.Length == n);
+
+Console.WriteLine($"Elements of length {n} in the string:");
+foreach (var element in resultString)
+{
+        Console.WriteLine(element);
+}
+#endregion
