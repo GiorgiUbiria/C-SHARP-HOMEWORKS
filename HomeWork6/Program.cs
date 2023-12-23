@@ -122,3 +122,23 @@ void PrintFirstMiddleLastOfBoolList(List<bool> list)
     Console.WriteLine(list.Last());
 }
 #endregion
+
+#region Problem5
+Console.Write("Enter a number: ");
+string inputVal = Console.ReadLine();
+
+PrintDigits(inputVal, 0);
+
+void PrintDigits(string number, int index)
+{
+    if (index < number.Length)
+    {
+        Console.Write(number[index]);
+        if (index < number.Length - 1)
+        {
+            Console.Write("-");
+        }
+        PrintDigits(number, index + 1);
+    }
+}
+#endregion
