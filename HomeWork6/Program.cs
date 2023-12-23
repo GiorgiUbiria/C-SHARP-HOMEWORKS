@@ -32,3 +32,35 @@ List<int> FindNumbers(int lowerRange, int higherRange, int power)
     return numbers;
 }
 #endregion
+
+#region Problem2
+#endregion
+
+#region Problem3
+Console.Write("Enter two strings separated by a comma: ");
+string input = Console.ReadLine();
+
+string[] words = input.Split(',');
+
+string suffix = FindCommonSuffix(words[0].Trim(), words[1].Trim());
+
+Console.WriteLine($"The longest common end suffix is: {suffix}");
+
+string FindCommonSuffix(string str1, string str2)
+{
+    int i = str1.Length - 1;
+    int j = str2.Length - 1;
+
+    while (i >= 0 && j >= 0 && str1[i] == str2[j])
+    {
+        i--;
+        j--;
+    }
+
+    return str1.Substring(i + 1);
+}
+#endregion
+
+#region Problem4
+
+#endregion
