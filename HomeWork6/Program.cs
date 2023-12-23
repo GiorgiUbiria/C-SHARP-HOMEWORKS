@@ -142,3 +142,23 @@ void PrintDigits(string number, int index)
     }
 }
 #endregion
+
+#region Problem6
+Console.Write("Enter the elements of the array separated by comma: ");
+int[] array = Console.ReadLine().Split(',').Select(int.Parse).ToArray();
+
+bool hasDuplicates = HasDuplicates(array, array.Length);
+
+Console.WriteLine(hasDuplicates ? "The array has duplicates." : "The array does not have duplicates.");
+
+bool HasDuplicates(int[] arr, int n)
+{
+    if (n == 1)
+        return false;
+
+    if (arr.Take(n - 1).Contains(arr[n - 1]))
+        return true;
+
+    return HasDuplicates(arr, n - 1);
+}
+#endregion
