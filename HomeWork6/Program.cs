@@ -62,5 +62,63 @@ string FindCommonSuffix(string str1, string str2)
 #endregion
 
 #region Problem4
+Console.Write("Enter the type of the list (string, int, bool): ");
+string type = Console.ReadLine();
 
+Console.Write("Enter the elements of the list separated by comma: ");
+string inputValue = Console.ReadLine();
+
+if (type == "string")
+{
+    List<string> list = ParseStringList(inputValue);
+    PrintStringListInUppercase(list);
+}
+else if (type == "int")
+{
+    List<int> list = ParseIntList(inputValue);
+    PrintSumOfIntList(list);
+}
+else if (type == "bool")
+{
+    List<bool> list = ParseBoolList(inputValue);
+    PrintFirstMiddleLastOfBoolList(list);
+}
+else
+{
+    Console.WriteLine("Invalid type. Please enter string, int, or bool.");
+}
+
+List<string> ParseStringList(string input)
+{
+    return input.Split(',').Select(s => s.Trim()).ToList();
+}
+
+void PrintStringListInUppercase(List<string> list)
+{
+    Console.WriteLine("The elements in uppercase are: ");
+    list.ForEach(s => Console.WriteLine(s.ToUpper()));
+}
+
+List<int> ParseIntList(string input)
+{
+    return input.Split(',').Select(int.Parse).ToList();
+}
+
+void PrintSumOfIntList(List<int> list)
+{
+    Console.WriteLine($"The sum of all integers is: {list.Sum()}");
+}
+
+List<bool> ParseBoolList(string input)
+{
+    return input.Split(',').Select(bool.Parse).ToList();
+}
+
+void PrintFirstMiddleLastOfBoolList(List<bool> list)
+{
+    Console.WriteLine("The first, middle and last elements are: ");
+    Console.WriteLine(list.First());
+    Console.WriteLine(list[list.Count / 2]);
+    Console.WriteLine(list.Last());
+}
 #endregion
