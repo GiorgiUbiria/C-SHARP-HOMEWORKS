@@ -6,14 +6,41 @@ namespace HomeWork6
     {
         static void Main()
         {
-            // executeFirstProblem();
-            // executeThirdProblem();
-            // executeFourthProblem();
-            // executeFifthProblem();
-            // executeSixthProblem();
-            executeSecondProblem();
+            Console.WriteLine("Choose the problem to execute:");
+            Console.WriteLine("1. First Problem");
+            Console.WriteLine("2. Second Problem");
+            Console.WriteLine("3. Third Problem");
+            Console.WriteLine("4. Fourth Problem");
+            Console.WriteLine("5. Fifth Problem");
+            Console.WriteLine("6. Sixth Problem");
+
+            string input = Console.ReadLine();
+
+            switch (input)
+            {
+                case "1":
+                    executeFirstProblem();
+                    break;
+                case "2":
+                    executeSecondProblem();
+                    break;
+                case "3":
+                    executeThirdProblem();
+                    break;
+                case "4":
+                    executeFourthProblem();
+                    break;
+                case "5":
+                    executeFifthProblem();
+                    break;
+                case "6":
+                    executeSixthProblem();
+                    break;
+                default:
+                    Console.WriteLine("Invalid choice. Please choose a number between 1 and 6.");
+                    break;
+            }
         }
-        
         static void executeFirstProblem()
         {
             Console.Write("Enter the lower range: ");
