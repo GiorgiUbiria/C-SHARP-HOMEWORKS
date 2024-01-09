@@ -10,9 +10,61 @@ class Program
 //        CreateAndReadLast();
 //        CreateMultiplicationTable();
 //        SplitNodesToXML();
-          CalculateDaysBeforeBirthday();
+//          CalculateDaysBeforeBirthday();
+//          CipherTheString();
     }
 
+
+    static void CipherTheString()
+    {
+        Console.Write("Enter a string: ");
+        string word = Console.ReadLine();
+        Console.Write("Enter the key: ");
+        int key = Convert.ToInt32(Console.ReadLine());
+
+        var inputData = new
+        {
+            word = word,
+            key = key.ToString()
+        };
+
+        File.WriteAllText("cipher.json", JsonConvert.SerializeObject(inputData));
+
+        var jsonData = JsonConvert.DeserializeObject<dynamic>(File.ReadAllText("cipher.json"));
+        string cipherWord = jsonData.word.ToString();
+        int cipherKey = Convert.ToInt32(jsonData.key.ToString());
+
+        string cipher = CaesarCipher(cipherWord, cipherKey);
+
+        var outputData = new
+        {
+            Cipher = cipher
+        };
+
+        File.WriteAllText("cipher_solution.json", JsonConvert.SerializeObject(outputData));
+
+        Console.WriteLine("The original string: " + cipherWord);
+        Console.WriteLine("The ciphered string: " + cipher);
+        Console.WriteLine("The cipher has been written to cipher_solution.json");
+    }
+    
+    static string CaesarCipher(string input, int key)
+    {
+        string result = "";
+        foreach (char c in input)
+        {
+            if (char.IsLetter(c))
+            {
+                char offset = char.IsUpper(c) ? 'A' : 'a';
+                result += (char)(((c + key - offset) % 26) + offset);
+            }
+            else
+            {
+                result += c;
+            }
+        }
+        return result;
+    }
     static void CalculateDaysBeforeBirthday()
     {
         Console.Write("Enter Nikushas birthday (format: MMMM dd, yyyy): ");
