@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uTvlEdZX8HenpV5GZnjxjeyC2LdaoikEDIOXdCn6l5ZotqcviNxBBJ6iFUsOo8CaM37r9x1eV2M1iGRtz22S2A==",
+  "success": true,
+  "projectFilePath": "/home/faziskado/Projects/C-sharp-Course/HomeWorks/HomeWork9/HomeWork9.csproj",
+  "expectedPackageFiles": [
+    "/home/faziskado/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
