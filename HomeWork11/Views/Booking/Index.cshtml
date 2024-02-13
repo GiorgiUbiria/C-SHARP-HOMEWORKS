@@ -1,0 +1,24 @@
+@model IEnumerable<Booking>
+
+<div class="container">
+    <div class="row">
+        @if (Model.Any())
+        {
+            foreach (var booking in Model)
+            {
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">@booking.FirstName @booking.LastName</h5>
+                            <p class="card-text">Has a booking with @booking.Doctor at @booking.Time.</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>There are no bookings.</p>
+        }
+    </div>
+</div>

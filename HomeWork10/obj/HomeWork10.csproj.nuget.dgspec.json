@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/faziskado/Projects/RiderProjects/HomeWork10/HomeWork10.csproj": {}
+    "/home/faziskado/Projects/RiderProjects/C-SHARP-HOMEWORKS/HomeWork10/HomeWork10.csproj": {}
   },
   "projects": {
-    "/home/faziskado/Projects/RiderProjects/HomeWork10/HomeWork10.csproj": {
+    "/home/faziskado/Projects/RiderProjects/C-SHARP-HOMEWORKS/HomeWork10/HomeWork10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/faziskado/Projects/RiderProjects/HomeWork10/HomeWork10.csproj",
+        "projectUniqueName": "/home/faziskado/Projects/RiderProjects/C-SHARP-HOMEWORKS/HomeWork10/HomeWork10.csproj",
         "projectName": "HomeWork10",
-        "projectPath": "/home/faziskado/Projects/RiderProjects/HomeWork10/HomeWork10.csproj",
+        "projectPath": "/home/faziskado/Projects/RiderProjects/C-SHARP-HOMEWORKS/HomeWork10/HomeWork10.csproj",
         "packagesPath": "/home/faziskado/.nuget/packages/",
-        "outputPath": "/home/faziskado/Projects/RiderProjects/HomeWork10/obj/",
+        "outputPath": "/home/faziskado/Projects/RiderProjects/C-SHARP-HOMEWORKS/HomeWork10/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/faziskado/.nuget/NuGet/NuGet.Config"

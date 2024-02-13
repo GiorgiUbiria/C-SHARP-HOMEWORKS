@@ -1,0 +1,30 @@
+@model Booking
+
+<form asp-action="Book" method="post" class="container">
+    <div class="row">
+        <div class="col">
+            <label for="firstName">First Name:</label>
+            <input asp-for="FirstName" id="firstName" class="form-control"/>
+        </div>
+        <div class="col">
+            <label for="lastName">Last Name:</label>
+            <input asp-for="LastName" id="lastName" class="form-control"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="doctor">Doctor:</label>
+            <input asp-for="Doctor" id="doctor" class="form-control"/>
+        </div>
+        <div class="col">
+            <label for="time">Time:</label>
+            <input asp-for="Time" id="time" class="form-control"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <input type="submit" value="Book" class="btn btn-primary mt-3"/>
+        </div>
+    </div>
+</form>
+

@@ -75,7 +75,7 @@ void fourthProblem()
 {
     FileContext context = new FileContext();
 
-//    string filePath = "text.txt";
+//   string filePath = "text.txt";
 //    string filePath = "json.json";
     string filePath = "files.zip";
 
@@ -97,3 +97,5 @@ void fourthProblem()
 
     context.ExecuteStrategy(filePath);
 }
+
+fourthProblem();
