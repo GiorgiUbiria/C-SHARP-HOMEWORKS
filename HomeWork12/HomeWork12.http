@@ -1,0 +1,65 @@
+@HomeWork12_HostAddress = http://localhost:5124
+
+# POST method
+POST {{HomeWork12_HostAddress}}/people/
+Content-Type: application/json
+
+{
+  "CreateDate": "2024-02-16T00:00:00",
+  "Firstname": "John",
+  "Lastname": "Doe",
+  "JobPosition": "Software Developer",
+  "Salary": 5000,
+  "WorkExperience": 5,
+  "PersonAddress": {
+    "Country": "Turkey",
+    "City": "Ankara",
+    "HomeNumber": "123"
+  }
+}
+
+###
+
+# GET method
+GET {{HomeWork12_HostAddress}}/people/
+Accept: application/json
+
+###
+
+# GET/{id} method
+GET {{HomeWork12_HostAddress}}/people/1
+Accept: application/json
+
+###
+
+# GET?querystring method
+GET {{HomeWork12_HostAddress}}/people/?salary=5000&city=Ankara
+Accept: application/json
+
+###
+
+# DELETE/{id} method
+DELETE {{HomeWork12_HostAddress}}/people/1
+Accept: application/json
+
+###
+
+# PUT/{id} method
+PUT {{HomeWork12_HostAddress}}/people/1
+Content-Type: application/json
+
+{
+  "CreateDate": "2024-02-16T00:00:00",
+  "Firstname": "Jane",
+  "Lastname": "Doe",
+  "JobPosition": "Software Developer",
+  "Salary": 6000,
+  "WorkExperience": 6,
+  "PersonAddress": {
+    "Country": "Turkey",
+    "City": "Istanbul",
+    "HomeNumber": "456"
+  }
+}
+
+###
